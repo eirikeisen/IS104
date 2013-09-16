@@ -1,8 +1,32 @@
-body{
-text-align:center;
-background-color:white;
-}
-
-#lister{
-text-align:center;
-}
+body {
+  padding-left: 11em; /* marg på venstresiden */
+  font-family: Georgia, "Times New Roman",
+        Times, serif; /* Teksttype */
+  color: #100873; /* Farge på tekst */
+  background-color: #6899D3 } /* Bakgrunnsfarge */
+ul.navbar { 
+  list-style-type: none; /* Om vi skal ha med punkter på listen */
+  padding: 0; /* Ingen marg på navigasjonslisten */
+  margin: 0; /* Marg ovenifra */
+  position: absolute; /* Hvordan boksene posisjonerer seg i forhold til resten */
+  top: 2em; /* Toppmarg */
+  left: 1em; /* Venstremarg */
+  width: 9em } /* Hvor brede boksene skal være */
+h1 {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif } /* Tekstype */
+ul.navbar li {
+  background: white; /* Bakgrunnsfarge på navigasjonslistepunktene */
+  margin: 0.5em 0; /* Mellomromet mellom boksene */
+  padding: 0.3em; /* Hvor høye boksene er  */
+  border-right: 1em solid black } /* Bestemmer hvor tjukk og fargen på 	 */
+ul.navbar a { /* */
+  text-decoration: none } /* Ikke forandre på utseendet */
+a:link {
+  color: blue } /* Farge på linken før du klikker */
+a:visited {
+  color: purple } /* Farge på linken etter du har klikket */
+address {
+  margin-top: 1em; /* Avstand mellom skillestrek og innhold over */
+  padding-top: 1em; /* Avstand mellom skillestrek og innhold under */
+  border-top: thin dotted } /* Skillestrek */

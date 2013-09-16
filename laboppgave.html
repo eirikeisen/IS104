@@ -4,7 +4,7 @@
   LAB1
   Navn: Eirik Rørstad Eisenträger
   Jeg samarbeidet med: Eirik Kvarstein
-  Tiden jeg har brukt på oppgaven: 7 timer
+  Tiden jeg har brukt på oppgaven: ...
 -->
 
 <html>
@@ -28,33 +28,45 @@
 <body>
 
 <!-- Skriv din HTML kode her -->
-<!-- Script hentet fra: http://stackoverflow.com/questions/9895082/javascript-populate-drop-down-list-with-array -->
-<!-- Randomcolor-script: http://css-tricks.com/snippets/javascript/random-hex-color/ -->
- <div id="lister">
-<ul id="langlist">
+
+<!-- Navigasjon -->
+<ul class="navbar">
+<li><a href="laboppgave.html">Hjem</a>
+<li><a href="#"onclick="popup();">Kronologisk</a>
+<li><a href="#"onclick="popup();">Hierarkisk</a>
+<li><a href="#"onclick="popup();">Alfabetisk</a>
 </ul>
 
-
+<!-- Hovedinnhold -->
+<p>Søk i programmeringsspråk
 <select id="velg" onChange="melding(this)">
 </select>
+</p>
 
-</div>
+<h1> Programmeringsspråk - hva er det?</h1>
+<hr>
+
+<p id="text">Velkommen til en mystisk verden av programmeringsspråk</p>
+
+
+
+<address>
+Laget 16. september 2013 <br>
+Av Eirik Rørstad Eisenträger
+</address>
+
+<!-- Script hentet fra: http://stackoverflow.com/questions/9895082/javascript-populate-drop-down-list-with-array -->
+<!-- Randomcolor-script: http://css-tricks.com/snippets/javascript/random-hex-color/ -->
+
+
+
 
 <script type="text/javascript">
-var list = document.getElementById("langlist");
 var select = document.getElementById("velg")
 
 for(var i = 0; i < proglangs.length; i++){
 
 var opt = proglangs[i];
-var randomColor = Math.floor(Math.random()*16777215).toString(16);
-
-var color = '#' + randomColor;
-
-var el2 = document.createElement("li");
-el2.textContent=opt;
-el2.style.color = color;
-list.appendChild(el2);
 
 
 var el = document.createElement("option");
@@ -64,7 +76,6 @@ select.appendChild(el);
 </script>
 
 
-<span id="text">Velg programmeringsspråk</span>	
 
 
 
