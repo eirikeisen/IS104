@@ -1,0 +1,30 @@
+Kontrollspørsmål
+
+Lab 1
+0. Hva kan JavaScript brukes til?
+- Lage grensesnitt som forbedrer brukeropplevelsen
+- Gi dynamiske funksjonaliteter
+- Kan hente informasjon
+
+1. CSS id kan kun brukes èn gang, mens class kan brukes flere ganger.
+
+2.
+Brukbarheten i deloppgave 1 er veldig mye bedre.
+Der slipper man å få evig lange nettsider.
+Man kan også trykke på og velge et element og få informasjon om
+elementet.
+
+3.
+Wikipedias liste er alfabetisk sortert og lagd ved å bruke liste-
+funksjonen <li> <ul> i tabell-funksjonen <table>
+
+4. Forskjellen på div og span er at div bør brukes til store
+deler av HTML-dokumentet, mens span bør brukes på mindre porsjoner f.eks. tekst eller bilder
+Div er et block, mens span er inline
+
+Lab 2
+
+
+Ligger i readme.txt
+
+
