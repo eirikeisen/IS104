@@ -1,5 +1,6 @@
 Kontrollspørsmål
 
+Lab 1
 0. Hva kan JavaScript brukes til?
 - Lage grensesnitt som forbedrer brukeropplevelsen
 - Gi dynamiske funksjonaliteter
@@ -20,3 +21,14 @@ funksjonen <li> <ul> i tabell-funksjonen <table>
 4. Forskjellen på div og span er at div bør brukes til store
 deler av HTML-dokumentet, mens span bør brukes på mindre porsjoner f.eks. tekst eller bilder
 Div er et block, mens span er inline
+
+5. Brukbarhetsproblemer kan være at det ikke er en overskrift, man får ingen informasjon om hvorfor man skal velge et språk, og hva som skjer når man velger.
+Det kunne vært lagt inn funksjoner som gjør at det er lettere å finne frem til et spesifikt språk
+så man slipper å scrolle og lete, f.eks. lagt inn en funksjon der man bare kan trykke på forbokstaven.
+
+Lab 2
+
+Ligger i readme.txt
+
+
+
